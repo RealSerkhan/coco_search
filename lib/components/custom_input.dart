@@ -28,7 +28,7 @@ class CustomInput extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 52.0,
+      height: 50.0,
       child: TextField(
         autofocus: autoFocus!,
         controller: controller,

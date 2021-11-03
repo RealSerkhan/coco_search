@@ -6,6 +6,11 @@ const kTextStyle18 = TextStyle(
   fontSize: 18,
   fontWeight: FontWeight.w400,
 );
+const kHeaderTextStyle18 = TextStyle(
+  color: CustomColors.black,
+  fontSize: 18,
+  fontWeight: FontWeight.w400,
+);
 const kTextStyle14 = TextStyle(
   color: CustomColors.white,
   fontSize: 14,

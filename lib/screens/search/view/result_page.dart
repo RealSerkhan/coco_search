@@ -12,7 +12,22 @@ class ResultPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        backgroundColor: Colors.transparent,
+        shadowColor: Colors.transparent,
+        leading: IconButton(
+          icon: Icon(
+            Icons.arrow_back,
+            color: CustomColors.black,
+          ),
+          onPressed: () {},
+        ),
+        centerTitle: false,
+        title: Text(
+          'Coco Explore',
+          style: kHeaderTextStyle18,
+        ),
+      ),
       body: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 20),
         child: Column(
